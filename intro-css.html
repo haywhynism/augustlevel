@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <link rel="shortcut icon" href="media/3.png" type="image/x-icon">
+    <link rel="stylesheet" href="intro.css">
+    <!-- Internal styling -->
+     <style>
+        
+
+        /* Basic Selectors */
+        /* element selector */
+        h1 {
+            color: red ;
+        }
+
+        p {
+            color: rgb(45, 216, 216);
+            font-size: 90px;
+        }
+
+        body {
+            background-color: beige;
+        }
+
+        /* universal selector */
+        * {
+            color: blueviolet !important;
+        }
+
+        /* class selector */
+        .text {
+            color: red !important;
+        }
+
+        /* id selector */
+        #text {
+            color: brown !important;
+            font-size: 50px;
+        }
+
+        /* Combinators selectors */
+
+        /* descendant selector */
+        div span {
+            color: cadetblue !important;
+        }
+
+        div h1 {
+            color: chocolate !important;
+        }
+
+        div b {
+            color: darkolivegreen !important;
+        }
+
+        /* Child selector */
+        div>.ayo {
+            color:plum !important;
+        }
+
+        /* Adjacent Selector */
+        b+span+b {
+            color: greenyellow !important;
+        }
+
+
+
+
+
+        /* Pseudo Classes Selector */
+        div :first-child {
+            
+        }
+
+        .first-group :last-child {
+            font-size: 80px;
+            color: lime;
+            font-weight: 800;
+        }
+
+        .first-group :nth-child(1){
+            font-family: cursive;
+            font-size: 70px;
+        }
+        .first-group :nth-child(2){
+            font-family: cursive;
+            font-size: 70px;
+        }
+        .first-group :nth-child(3){
+            font-family: cursive;
+            font-size: 70px;
+        }
+        .first-group :nth-child(4){
+            font-family: cursive;
+            font-size: 70px;
+        }
+
+        .text-group :not(.j){
+            color: rgb(206, 21, 21) !important;
+            font-size: 80px;
+        }
+
+        input::placeholder {
+            color: red;
+        }
+     </style>
+</head>
+<body>
+
+    <!-- full meaning of css is cascading style sheet  -->
+    
+    <!-- three method or types of css -->
+    <!-- 1. inline styling
+    2. Internal styling
+    3. External styling -->
+
+
+    <!-- types of selectors in internal and external styling -->
+     1. Basic Selectors
+     2. Combinators Selectors
+     3. Attribute Selectors
+     4. Pseudo- Classes selctors
+     5. Pseudo- Element selectors
+
+    <!-- Inline styling -->
+    <h1 style="color: rgb(0, 174, 255); font-size: 90px;">Ade is a boy</h1>
+    <p>Towolawi</p>
+    <h2 class="text">Emmanuel</h2>
+    <h3 id="text">John</h3>
+
+
+    <div class="first-group">
+        <span class="ayo">Ayomide</span>
+        <h1>Joy</h1>
+        <b>Emmanuel</b>
+        <span>Gen z</span>
+        <b>GOOD</b>
+    </div>
+
+
+    <div class="text-group">
+
+        <u>Ayomide</u>
+        <b>Jephtha</b>
+        <i class="j">Joy</i>
+        <p>Rebecca</p>
+
+    </div>
+
+    <input type="text" placeholder="Enter your name here">
+
+</body>
+</html>

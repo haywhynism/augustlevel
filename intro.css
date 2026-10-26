@@ -1,0 +1,96 @@
+/* Basic Selectors */
+        /* element selector */
+        h1 {
+            color: red ;
+        }
+
+        p {
+            color: rgb(45, 216, 216);
+            font-size: 90px;
+        }
+
+        body {
+            background-color: beige;
+        }
+
+        /* universal selector */
+        * {
+            color: blueviolet !important;
+        }
+
+        /* class selector */
+        .text {
+            color: red !important;
+        }
+
+        /* id selector */
+        #text {
+            color: brown !important;
+            font-size: 50px;
+        }
+
+        /* Combinators selectors */
+
+        /* descendant selector */
+        div span {
+            color: cadetblue !important;
+        }
+
+        div h1 {
+            color: chocolate !important;
+        }
+
+        div b {
+            color: darkolivegreen !important;
+        }
+
+        /* Child selector */
+        div>.ayo {
+            color:plum !important;
+        }
+
+        /* Adjacent Selector */
+        b+span+b {
+            color: greenyellow !important;
+        }
+
+
+
+
+
+        /* Pseudo Classes Selector */
+        div :first-child {
+            
+        }
+
+        .first-group :last-child {
+            font-size: 80px;
+            color: lime;
+            font-weight: 800;
+        }
+
+        .first-group :nth-child(1){
+            font-family: cursive;
+            font-size: 70px;
+        }
+        .first-group :nth-child(2){
+            font-family: cursive;
+            font-size: 70px;
+        }
+        .first-group :nth-child(3){
+            font-family: cursive;
+            font-size: 70px;
+        }
+        .first-group :nth-child(4){
+            font-family: cursive;
+            font-size: 70px;
+        }
+
+        .text-group :not(.j){
+            color: rgb(206, 21, 21) !important;
+            font-size: 80px;
+        }
+
+        input::placeholder {
+            color: red;
+        }

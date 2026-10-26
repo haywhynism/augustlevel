@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 90px; */
+}
+
+button{
+    /* flex: 1; */
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.rightside {
+    display: flex;
+    padding: 40px 90px;
+   gap: 50px;
+}
+
+.rightside :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.rightside :nth-child(2){
+    display: flex;
+    flex-direction: column;
+     gap: 30px;
+}
+.rightside :nth-child(3){
+    display: flex;
+    flex-direction: column;
+     gap: 30px;
+}
+
+.sign {
+    padding: 10px 20px;
+    /* margin: 20px 30px; */
+    margin-left: 300px;
+}
+
+.middle {
+    width: 500px;
+   margin: 60px auto;
+   animation: name duration timing-function delay iteration-count;
+   animation-name: ayo;
+   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+   animation-duration: 8s;
+
+   animation: ayo 8s linear 2s infinite;
+}

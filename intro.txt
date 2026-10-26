@@ -1,0 +1,76 @@
+Examples of programming Language
+ -JavaScript
+ -Python
+ -C++
+ -C#
+ -GO
+ -Rust
+ -Ruby
+
+Programming languages should able to do
+-Arithmetic operations
+-Logical operations
+-CRUD - Create Read Update Delete
+
+Naming Conventions
+Pascal Casing - Students, StudentsOfSqiAbeokuta - Java
+Camel Casing - students, studentsOfSqiAbeokuta - JavaScript
+Snake Casing - students, students_of_sqi_abeokuta - Python
+Kebab Casing - students, students-of-sqi-abeokuta -Html, CSS
+
+Variable Declarations
+var - no longer in use/deprecated 
+let - variables that may change value later on
+const - constant variable whose value can never change
+
+let age = 20
+let role = staff
+const name = Samuel
+
+age = 21
+role = admin
+
+3 + 4 = 7
+let a + b = 20
+let c + 10 = e
+Arithmetic Operators
++ (Addition)
+- (Subtraction)
+/ (Division)
+* (Multiplication)
+% (Modulus - remainder) 19 % 4 = 3
+= (Equal to)
+
+Unary Operators
+++ (increment by 1)
+let a = 5
+a++ (a = 6)
+-- (decrement by 1)
+let b = 4
+b-- (b = 3)
+
+Binary Operators
++= 
+a = 5
+b = 6
+a += b (whatever a was before, add b to it a = 11)
+-= 
+a = 10
+b = 6
+a -= b (whatever a was before, add b to it a = 4)
+
+Tenary Operators
+a = 20
+a == 5 ? a : 7 (if a is 5 return a else return 7)
+
+Data Types
+Strings - "Damola" 'Eniola Komolafe' '' ""
+Numbers - 1234567890
+Boolean - true, false
+BigInt - 323243443n
+Undefined - no value yet
+Null - no value
+Objects - 
+Object
+Array
+

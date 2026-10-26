@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+    <style>
+        * {
+            color: red;
+        }
+        .accept {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body style="background-color: grey;">
+
+    <form action="#">
+        <fieldset>
+            <legend>CREATE YOUR ACCOUNT</legend>
+
+            <label for="firstname">First Name</label>
+            <input type="text" name="" id="firstname" required placeholder="Enter your first name">
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="" id="lastname"> <br> <br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="" id="dob">
+
+            <label for="gender">Gender</label>
+            <select name="" id="gender">
+                <option value="">select your gender</option>
+                <option value="">Female</option>
+                <option value="">Male</option>
+                <option value="">Not sure</option>
+            </select>
+            <br>
+            <br>
+            <label for="number">Number</label>
+            <input type="tel" name="" id="number">
+            <label for="email">Email</label>
+            <input type="email" name="" id="email"> <br> <br>
+
+            <label for="password">Password</label>
+            <input type="password" name="" id="password"> <br>
+
+            <input type="datetime-local" name="" id="">
+            <input type="file" name="" id="">
+            <input type="month" name="" id=""><br>
+            <input type="radio" name="faruq" id=""> <span>A</span><br>
+            <input type="radio" name="faruq" id=""> <span>B</span> <br>
+            <input type="radio" name="faruq" id=""> <span>C</span><br>
+            <input type="radio" name="faruq" id=""> <span>D</span><br>
+            <input type="checkbox" name="" id=""><span class="accept">
+                I accept the Privacy Policy and the Terms of Service</span>
+
+            <button type="submit" style="background-color: blue;">Submit</button>
+
+        </fieldset>
+    </form>
+
+
+    <!-- Introduction to CSS -->
+     <!-- Three Method/types of using CSS  -->
+        <ol>
+            <li style="color: red;">Inline Styling</li>
+            <li>Internal Styling</li>
+            <li>External Styling</li>
+        </ol>
+
+</body>
+
+</html>
